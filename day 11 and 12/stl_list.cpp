@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+#include<list>
+int main(){
+list<int> li;
+li.push_back(1);
+li.push_back(2);
+li.push_back(3);
+
+for (int i:li){
+    cout<<i<<" ";
+}
+}
